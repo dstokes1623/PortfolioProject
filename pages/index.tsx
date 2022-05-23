@@ -32,10 +32,8 @@ const Home: FC<Props> = ({ Posts }) => {
       <main className="mb-10">
         <Intro />
         <About />
-        <Testimonials />
         <Projects />
         <Skills />
-        <Blog Posts={Posts} />
         <Contact />
       </main>
     </div>

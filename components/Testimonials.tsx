@@ -21,14 +21,14 @@ const Testimonials = () => {
               className="flex items-center space-x-4"
             >
               <div className="relative w-12 h-12 mt-4 rounded-full">
-                <Image
+                {/* <Image
                   width={250}
                   height={250}
                   src={testimonial.pfp}
                   alt={testimonial.name}
                   className="w-12 h-12 mt-4 rounded-full"
                   objectFit="contain"
-                />
+                /> */}
               </div>
               <div className="flex flex-col justify-center">
                 <h2 className="mt-4 text-white">{testimonial.name}</h2>

@@ -6,7 +6,7 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <div id="skills" className="mt-20 md:ml-20 ml-10">
-      <Title num={4} title="Skills" />
+      <Title num={3} title="Skills" />
 
       <div className="flex flex-wrap items-center justify-center mt-10 space-x-6 md:space-x-10 md:items-start md:justify-start">
         {data.skills.map((skill, i) => (

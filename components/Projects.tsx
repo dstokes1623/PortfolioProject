@@ -7,9 +7,9 @@ import React from "react";
 const Projects = () => {
   return (
     <div id="work" className="md:ml-20 ml-10">
-      <Title num={3} title="Some Things I’ve Built" />
+      <Title num={2} title="Some Things I’ve Built" />
 
-      <div className="flex flex-col">
+      {/* <div className="flex flex-col">
         {data.projects.map((project, i) => (
           <article
             key={i}
@@ -70,7 +70,7 @@ const Projects = () => {
             </div>
           </article>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

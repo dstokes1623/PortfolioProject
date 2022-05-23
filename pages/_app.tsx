@@ -41,10 +41,10 @@ function MyApp({ Component, pageProps }: AppProps) {
             },
           ],
           profile: {
-            firstName: "Avneesh",
+            firstName: "Brandan",
             gender: "Male",
-            lastName: "Agarwal",
-            username: "avneesh0612",
+            lastName: "Rayton",
+            username: "brayton815",
           },
         }}
         twitter={{
